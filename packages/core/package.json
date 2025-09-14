@@ -1,0 +1,27 @@
+{
+  "name": "@idgaf/core",
+  "version": "0.1.0",
+  "description": "Core IDGAF.ai SDK for unified on-device AI inference",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.10.0",
+    "@tensorflow/tfjs-react-native": "^1.0.0",
+    "onnxruntime-common": "^1.16.0",
+    "onnxruntime-web": "^1.16.0"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.70.0"
+  },
+  "peerDependenciesMeta": {
+    "react-native": {
+      "optional": true
+    }
+  }
+}

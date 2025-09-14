@@ -1,6 +1,6 @@
 # IDGAF.ai 🚀
 
-**The Unified On-Device AI SDK for Mobile and Edge Devices**
+**"I don't give a format" - the Unified On-Device AI SDK for Mobile and Edge Devices**
 
 A production-ready SDK that provides a single, unified API for running any AI model (LLMs, vision, audio) on mobile and edge devices. Abstracts away the complexity of different model formats and runtimes while maintaining optimal performance.
 

@@ -1,0 +1,16 @@
+{
+  "name": "idgaf-node-example",
+  "version": "0.1.0",
+  "description": "Node.js example using IDGAF.ai SDK",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@idgaf/core": "file:../../packages/core"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}

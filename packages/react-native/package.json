@@ -1,0 +1,45 @@
+{
+  "name": "@idgaf/react-native",
+  "version": "0.1.0",
+  "description": "React Native bindings for IDGAF.ai - Unified On-Device AI SDK",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf lib",
+    "test": "jest",
+    "prepack": "npm run build"
+  },
+  "keywords": [
+    "react-native",
+    "ai",
+    "machine-learning",
+    "on-device",
+    "llm",
+    "computer-vision",
+    "mobile"
+  ],
+  "author": "IDGAF.ai Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IshanG97/idgaf.ai.git",
+    "directory": "packages/react-native"
+  },
+  "dependencies": {
+    "@idgaf/core": "^0.1.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-native": ">=0.70.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-native": "^0.72.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

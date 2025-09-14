@@ -1,0 +1,46 @@
+{
+  "name": "@idgaf/cli",
+  "version": "0.1.0",
+  "description": "CLI tools for IDGAF.ai - Model management and testing utilities",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "bin": {
+    "idgaf": "lib/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf lib",
+    "test": "jest",
+    "prepack": "npm run build"
+  },
+  "keywords": [
+    "cli",
+    "ai",
+    "machine-learning",
+    "model-management",
+    "testing",
+    "idgaf"
+  ],
+  "author": "IDGAF.ai Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IshanG97/idgaf.ai.git",
+    "directory": "packages/cli"
+  },
+  "dependencies": {
+    "@idgaf/core": "^0.1.0",
+    "commander": "^11.0.0",
+    "chalk": "^5.0.0",
+    "ora": "^7.0.0",
+    "inquirer": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

@@ -1,0 +1,80 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+lib/
+build/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
+*.lcov
+
+# Model files and cache
+models/
+*.gguf
+*.tflite
+*.onnx
+*.pte
+test-models/
+demo-models/
+validation-test/
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+
+# Package manager locks (keep package-lock.json for consistency)
+yarn.lock
+pnpm-lock.yaml
+
+# React Native
+*.keystore
+android/app/build/
+ios/build/
+
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+flutter_*.png
+
+# Platform specific
+*.iml
+.gradle
+local.properties
+
+# Testing
+test-results/
+junit.xml

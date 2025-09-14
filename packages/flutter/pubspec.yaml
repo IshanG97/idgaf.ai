@@ -1,0 +1,35 @@
+name: idgaf_ai
+description: Flutter plugin for IDGAF.ai - Unified On-Device AI SDK
+version: 0.1.0
+homepage: https://github.com/IshanG97/idgaf.ai
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: ai.idgaf.flutter
+        pluginClass: IdgafAiPlugin
+      ios:
+        pluginClass: IdgafAiPlugin
+
+topics:
+  - ai
+  - machine-learning
+  - on-device
+  - llm
+  - computer-vision
+  - mobile

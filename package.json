@@ -1,0 +1,52 @@
+{
+  "name": "@idgaf/ai-sdk",
+  "version": "0.1.0",
+  "description": "Unified On-Device AI SDK for mobile and edge devices",
+  "main": "packages/core/dist/index.js",
+  "types": "packages/core/dist/index.d.ts",
+  "keywords": [
+    "ai",
+    "machine-learning",
+    "on-device",
+    "llm",
+    "computer-vision",
+    "speech",
+    "gguf",
+    "tensorflow-lite",
+    "onnx",
+    "executorch"
+  ],
+  "author": "IDGAF.ai Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IshanG97/idgaf.ai.git"
+  },
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ],
+  "scripts": {
+    "build": "lerna run build",
+    "test": "jest",
+    "lint": "eslint packages/**/*.ts",
+    "typecheck": "tsc --noEmit",
+    "dev": "lerna run dev --parallel",
+    "clean": "lerna run clean && lerna clean",
+    "bootstrap": "lerna bootstrap"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.5.0",
+    "lerna": "^7.0.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
